@@ -391,9 +391,15 @@ body{
     width: 90px;
     height: 90px;
 }
+.design .a{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
 .design .bc h3{
     font-weight: 500;
-    font-size: 19px;
+    font-size: 19px !important;
 }
 .design .bc p{
     font-weight: 400;

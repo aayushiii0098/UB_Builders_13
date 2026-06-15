@@ -66,73 +66,10 @@ body{
     font-family:"Roboto", sans-serif;
 }
 
-.header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
 
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 
-.logo i{
-    color: white;
-    font-size: 28px;
-}
 
-.logo h4{
-    margin: 0;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Roboto", sans-serif;
-}
 
-.nav-links{
-    display: flex;
-    align-items: center;
-    gap: 51.74px;
-    list-style: none;
-   // margin-left: 160px;
-}
-
-.nav-links li{
-    list-style: none;
-}
-
-.nav-links li a{
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", sans-serif;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.nav-links li a i{
-    font-size: 7px;
-}
-
-.nav-links li a:hover{
-    color: white;
-}
-
-.header-right{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
 
 .phone{
     display: flex;
@@ -209,11 +146,16 @@ body{
 .cities{
     margin-top: 165px;
 }
-/* 
+
 .cities img{
     width: 100%;
     height: 100%;
-} */
+} 
+
+.cities .col-12{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .cities .imgbox
 {
     display: flex;
@@ -327,4 +269,175 @@ body{
 
 .properties .b{
     text-align: center;
+}
+
+.properties .org
+{
+    margin-top: 30px;
+}
+
+.view{
+    background-image: url(../images/img8.jpg);
+    width: 100%;
+    height: 750px;
+    opacity: 1;
+    margin-top: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view .discover {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 29.29px;
+}
+
+.view .discover p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30.4px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 29.3px;
+
+}
+
+.view .bu button{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 54px;
+    border-radius: 12px;
+    background-color: #E7C873;
+    color: #1A1A1A;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.view .bu{
+    text-align: center;
+}
+
+.world{
+    margin-top: 165px;
+}
+
+.world img{
+    height: 100%;
+    width: 100%;
+}
+
+.world .x h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.world .x p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.world .row .col-6 h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.world .row .col-6 p{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.world .but button{
+    background-color: #E7C873;
+    border-radius: 12px;
+    color:#1A1A1A;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 52px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.design{
+    background-color:#1A1A1A;
+    margin-top: 165px;
+    padding-bottom: 155px;
+    padding-top: 155px;
+}
+
+.design .row .col-lg-6 h1{
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.design .row .col-lg-6 h3{
+    font-weight: 500;
+    font-size: 26px;
+    color:#FFFFFF;
+}
+
+.design .row .col-lg-6 p{
+    font-weight: 400;
+    font-size: 15px;
+    color:#FFFFFF;
+}
+.design .a .d-flex img{
+    width: 90px;
+    height: 90px;
+}
+.design .bc h3{
+    font-weight: 500;
+    font-size: 19px;
+}
+.design .bc p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.design .col-lg-6 p{
+    font-weight: 500;
+    font-size: 19px;
+}
+.design .first{
+    margin-bottom: 86px;
+}
+.design .second p{
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.recent .container h1{
+    font-weight:500;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    margin-top: 165px;
+}
+.recent .container p{
+    font-weight:400;
+    font-size: 17px;
+    line-height: 32.3px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+
+.recent img{
+    gap: 30px;
+}
+
+
+@media (max-width:991px) {
+    .img-box
+    {
+        padding-top: 40px;
+    }
 }

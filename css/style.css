@@ -2,7 +2,7 @@ body{
     font-family:"Roboto", sans-serif;
 }
 
-.custom-navbar{
+.navbar{
     position: absolute;
     top: 0;
     left: 0;
@@ -10,15 +10,11 @@ body{
     z-index: 1000;
     background: transparent;
 }
-.custom-navbar .nav-link{
+.navbar .nav-link{
     color: white !important;
 }
 
-.custom-navbar .navbar-brand img{
-    height: 42px;
-}
-
-.custom-navbar .dropdown-toggle{
+.navbar .dropdown-toggle{
     color: white !important;
 }
 
@@ -236,12 +232,7 @@ body{
 {
     font-weight: 500;
     font-size: 15px;
-    line-height: 54px;
     text-align: center;
-    width: 272.05999755859375;
-    height: 54;
-    top: 94.14px;
-    left: 872.94px;
     border-radius: 12px;
     background: #E7C873;
     padding-left: 30px;

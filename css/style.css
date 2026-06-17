@@ -2,6 +2,26 @@ body{
     font-family:"Roboto", sans-serif;
 }
 
+.custom-navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+}
+.custom-navbar .nav-link{
+    color: white !important;
+}
+
+.custom-navbar .navbar-brand img{
+    height: 42px;
+}
+
+.custom-navbar .dropdown-toggle{
+    color: white !important;
+}
+
 
 .hero-banner {
   background-image: url(../images/img1.jpg);
@@ -447,3 +467,99 @@ body{
         padding-top: 40px;
     }
 }
+
+.recent .col-lg-3{
+    margin-bottom: 160px;
+}
+
+.start{
+    background-color:#1F4B43;
+    border-radius: 16px;
+}
+
+.start .col-lg-8 span{
+    background-color: #FFFFFF1F;
+    border-radius: 36px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width:fit-content;
+}
+.start  h2{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    color:#FFFFFF;
+    margin-bottom: 19.75px;
+}
+.start p{
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    margin-bottom: 35.25px;
+}
+
+.start .col-lg-6 .p{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 59px;
+    padding-right: 37.83px;
+
+}
+
+.start .col-lg-4 img{
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.start hr{
+     height:55px;
+            width:1px;
+            background:#d3d3d3;
+            border:none;
+            opacity:1;
+            margin:0 20px;
+}
+.start .b h4{
+    font-weight: 400;
+    font-size: 13px;
+}
+.start .b h3{
+    font-weight: 500;
+    font-size: 16px;
+}
+.start .gp h4{
+    font-weight: 400;
+    font-size: 13px;
+}
+.start .gp h3{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.stay h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-break: 40px;
+}
+.stay p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+}
+.stay img{
+    margin-top: 100px;
+}
+.last p
+{
+    margin-top: 44.25px;
+}
+

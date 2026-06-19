@@ -398,6 +398,9 @@ body{
     font-size: 15px;
     color:#FFFFFF;
 }
+.design .row .col-lg-6 .g{
+    margin-top: 29.44px;
+}
 .design .a .d-flex img{
     width: 90px;
     height: 90px;
@@ -420,17 +423,20 @@ body{
     font-weight: 500;
     font-size: 19px;
 }
+.design .col-lg-6 img{
+    margin-top: 2.03px;
+}
 .design .first{
     margin-bottom: 86px;
 }
 .design .second p{
     font-weight: 400;
     font-size: 17px;
+    margin-top: 86px;
     margin-bottom: 20px;
     color: #FFFFFF;
     text-align: center;
 }
-
 .recent .container h1{
     font-weight:500;
     font-size: 40px;
@@ -454,8 +460,15 @@ body{
 }
 .recent span{
     display: flex;
-
-
+    color: #3D3E3F;
+    margin-bottom: ;
+    gap: 10px; 
+}
+.recent span li{
+    list-style: none;
+}
+.recent i{
+    padding-right: 5px;
 }
 
 .recent img{
@@ -473,6 +486,9 @@ body{
     {
         padding-top: 40px;
     }
+    .col-lg-3{
+        margin-top: 40px;
+    }
 }
 
 .recent .col-lg-3{
@@ -487,7 +503,7 @@ body{
 
 }
 .recent .content{
-    padding: 10px 10px;
+    padding: 20px 0px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -505,6 +521,7 @@ body{
     background-color:#1F4B43;
     border-radius: 16px;
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .start .col-lg-8 span{
@@ -579,18 +596,64 @@ body{
 .stay h2{
     font-weight: 500;
     font-size: 40px;
-    line-break: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .stay p{
     font-weight: 400;
     font-size: 15px;
     line-height: 28.5px;
+    margin-bottom: 40px;
 }
 .stay img{
     margin-top: 100px;
 }
 .stay .f{
     margin-bottom: 100px;
+    border-radius: 60px;
+    border: 1px solid #EBEBEB;
+    width: 55%;
+    margin: 0 auto;
+}
+.stay input{
+    width: none;
+    border: none;
+    padding: 21px;
+}
+.stay a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28.5px;
+}
+.stay .g{
+    color: #1A1A1A;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+}
+@media (max-width:991px) {
+    .stay img
+    {
+        margin-top: 20px;
+    }
+    .stay h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .stay p{
+        margin-bottom: 20px;
+    }
+    .stay .f{
+        width: 100%;
+    }
+}
+
+.last{
+    margin-top: 100px;
+    background-color:  #F9F9F9;
+;
 }
 .last p
 {

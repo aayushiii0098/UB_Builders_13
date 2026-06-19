@@ -445,10 +445,26 @@ body{
     text-align: center;
     margin-bottom: 45px;
 }
+.recent a{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28.5px;
+    color: black;
+    text-decoration: none;
+}
+.recent span{
+    display: flex;
 
+
+}
 
 .recent img{
     gap: 30px;
+}
+.recent h2{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25.84px;
 }
 
 
@@ -460,12 +476,35 @@ body{
 }
 
 .recent .col-lg-3{
-    margin-bottom: 160px;
+    height: 100%;
 }
 
+.recent .box img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}
+.recent .content{
+    padding: 10px 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.recent .box{
+    border: 1px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: auto;
+    border-radius: 16px;
+
+}
 .start{
     background-color:#1F4B43;
     border-radius: 16px;
+    margin-top: 80px;
 }
 
 .start .col-lg-8 span{
@@ -504,6 +543,7 @@ body{
     padding-top: 10px;
     padding-left: 59px;
     padding-right: 37.83px;
+    width: 100%;
 
 }
 
@@ -549,8 +589,14 @@ body{
 .stay img{
     margin-top: 100px;
 }
+.stay .f{
+    margin-bottom: 100px;
+}
 .last p
 {
     margin-top: 44.25px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
 }
 

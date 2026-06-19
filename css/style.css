@@ -18,6 +18,29 @@ body{
     color: white !important;
 }
 
+.navbar .a{
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 26px;
+    padding-right: 33.36px;
+    padding-top: 6.75px;
+    padding-bottom: 6.75px;
+    background: none;
+}
+.navbar .nav-button a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 19.63px;
+}
+ .bi-telephone{
+    padding-right: 10px;
+}
+.navbar img{
+    padding-right: 20px;
+}
 
 .hero-banner {
   background-image: url(../images/img1.jpg);

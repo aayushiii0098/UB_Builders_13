@@ -17,7 +17,11 @@ body{
 .navbar .dropdown-toggle{
     color: white !important;
 }
-
+@media(max-width:991px){
+div#navbarSupportedContent{
+    background-color: #000;
+}
+}
 .navbar .a{
     border-radius: 50px;
     border: 1px solid #FFFFFF;
